@@ -1,0 +1,6 @@
+name: BulkLayerEditor
+main: platz1de\BulkLayerEditor\BulkLayerEditor
+api: 5.0.0
+version: 1.0
+author: platz1de
+load: STARTUP

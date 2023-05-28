@@ -1,0 +1,22 @@
+# Please read this configuration carefully before using this plugin!
+
+# Operation mode
+# "clear" will entirely delete all states from the selected layer (e.g. all waterlogged and snowlogged blocks)
+mode: "clear"
+
+# Target worlds
+# "auto" will automatically convert all worlds once they are loaded
+# "all" will load and convert all worlds in the worlds folder
+# "world1,world2,world3" will convert the specified worlds (separated by commas; use the names of the world folders)
+worlds: "auto"
+
+# DON'T CHANGE THIS IF YOU DON'T KNOW WHAT YOU'RE DOING
+# SETTING THIS TO 0 WILL NUKE YOUR ENTIRE WORLD
+layer: 1
+
+# Confirm that you read and changed the config accordingly
+# Set this to true and restart the server to start converting worlds
+# If something goes wrong, backups of your worlds are created in the backups folder
+confirm: false
+
+# Note: After stopping the server, this has to be enabled manually again
